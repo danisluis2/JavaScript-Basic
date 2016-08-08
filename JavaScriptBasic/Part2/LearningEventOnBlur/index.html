@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Learning Event OnBlur</title>
+        <script src="Script.js"></script>
+    </head>
+    <body>
+        <input id="name" type="text" onblur="myFunc(this)" value="" placeholder="Vui lòng nhập thông tin">
+        <form>
+            <label>Username: </label> <input onblur ="checkUser()" type="text" id="username" value="" placeholder="Please enter username!!!"><br>
+            <label>Password: </label> <input type="password" id="password" value="" placeholder="Please enter password!!!"><br>
+        </form>
+        <div id="information"></div>
+        <br>
+        <form>
+            <label>Họ và tên: </label> <input onblur ="checkLeft()" onfocus="checkVisible()" type="text" id="text" value="" placeholder="Please enter username!!!"><br>
+            <label>Ngày sinh: </label> <input type="password" id="password" value="" placeholder="Please enter password!!!"><br>
+        </form>
+    </body>
+</html>
+

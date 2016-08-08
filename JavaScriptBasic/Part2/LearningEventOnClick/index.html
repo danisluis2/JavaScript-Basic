@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Learning Event in JavaScript</title>
+        <script src="Script.js"></script>
+        <script src="Script.js"></script>
+        <style>
+            .container{
+                width: 500px;
+                margin: 0 auto;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <p>Learning about event onclick!</p>
+        <button onclick="myFunc()">Click me</button>
+        <p id="hello" onclick="myFuncx()">Nguyễn Văn Vương</p>
+        <p id="abx">Click me!</p>
+        <button onclick="document.getElementById('result').innerHTML = new Date()">What is the time?</button>
+        <p id="result"></p>
+        <button onclick="document.getElementById('result').style.color='red';">Change color of text above?</button>
+        <p onclick="myParameter(this,'blue')">Change color text is green</p>
+
+        <p onclick="mySum(this,54,2.2)">Learning tutorials how to using parameter function in javascript</p>
+        
+        <div class="container">
+            <p>Learning event onlick with form in javascript</p>
+            <input type="text" id="field1" value="" placeholder="Nhập thông tin vào đây!!!"></br>
+            <input type="text" id="field2" value=""><br>
+            <button onclick="myCopy()">Copy right</button>
+            <button onclick="myBackgroundColor()">Change ColorBG</button>
+        </div>
+
+        <section>
+            <h1>HỌC TẬP</h1>
+        </section>
+
+        
+    </body>
+</html>
+
